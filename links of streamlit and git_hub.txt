@@ -1,0 +1,7 @@
+
+streamlit:
+https://student-performance-classifications.streamlit.app/
+
+Git Hub:
+
+https://github.com/Abdalmalek7/Student_Performance_Classification
