@@ -12,7 +12,7 @@ model = joblib.load("exam_score_calss_model.pkl")
 # App Config
 # ---------------------------------
 st.set_page_config(
-    page_title="Student's Performance Prediction Project",
+    page_title="Student Performance Prediction",
     layout="wide"
 )
 
@@ -248,3 +248,4 @@ elif page == "Prediction":
 
         
         
+
