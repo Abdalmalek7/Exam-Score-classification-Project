@@ -12,7 +12,7 @@ model = joblib.load("exam_score_calss_model.pkl")
 # App Config
 # ---------------------------------
 st.set_page_config(
-    page_title="Student Performance Prediction",
+    page_title="Student Performance Classification",
     layout="wide"
 )
 
@@ -143,7 +143,7 @@ elif page == "Feature Explanation":
 # ---------------------------------
 elif page == "Prediction":
 
-    st.title("🤖 Student Performance Prediction")
+    st.title("🤖 Student Performance Classification")
     st.markdown("### Enter Student Information")
 
     col1, col2 = st.columns(2)
@@ -248,4 +248,5 @@ elif page == "Prediction":
 
         
         
+
 
